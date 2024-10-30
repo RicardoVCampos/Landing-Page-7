@@ -86,10 +86,27 @@
 
 .texto h3{
     color: #ff4800;
-    font-size: 25px;
+    font-size: 5vh;
 }
 
 .texto h1{
     color: white;
-    font-size: 40px;
+    font-size: 8vh;
+}
+.inputOutdoor input{
+    width:18vw;
+    height: 5vh;
+    color: rgb(101, 101, 101);
+    padding-left: 10px;
+}
+
+.inputOutdoor input::placeholder{
+    font-size: 1.5vh;
+}
+
+.inputOutdoor button{
+    width: 8vw;
+    height: 5.5vh;
+    background-color: #ff4800;
+    color: white;
 }
